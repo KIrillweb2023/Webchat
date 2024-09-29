@@ -1,0 +1,40 @@
+* {
+    font-family: "Lexend", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+  
+  
+ol, li {
+    list-style-type: none;
+}
+  
+a{
+    text-decoration: none;
+}
+  
+  
+button, input, textarea {
+    border: none;
+    outline: none;
+}
+  
+button{
+    cursor: pointer;
+}
+  
+*::before, *::after {
+    box-sizing: border-box;
+}
+  
+html{
+    scroll-behavior: smooth;
+}
+  
+  
