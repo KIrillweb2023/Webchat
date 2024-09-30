@@ -1,0 +1,59 @@
+$primary-color: #E477FF;
+$sblue-color: #7C89FF; 
+$background-color: #400080;
+$text-color: #fff;
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url("../../img/BackgroundApp/main.png") center (center / cover) no-repeat;
+    overflow-y: scroll;
+    padding: 186px 0;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    &__logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        svg{
+            width: 80px;
+        }
+    } 
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        &_title {
+            width: 50%;
+            text-align: center;
+            margin-top: 87px;
+            color: $text-color;
+            font-size: 3.5rem;
+            font-weight: 300;
+        }
+        &_text {
+            margin-top: 23px;
+            text-align: center;
+            font-size: 1.25rem;
+            color: #FFFFFF;
+        }
+        &_button {
+            justify-content: center;
+            margin-top: 37px;
+            background: linear-gradient(to left, $sblue-color,$primary-color);
+            color: $text-color;
+            width: 200px;
+            height: 45px;
+            border: none;
+            border-radius: 22px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+            cursor: pointer;
+        }
+    }  
+}
