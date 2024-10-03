@@ -7,8 +7,7 @@ $text-color: #fff;
     width: 100%;
     height: 100vh;
     background: url("../../img/BackgroundApp/main.png") center (center / cover) no-repeat;
-    overflow-y: scroll;
-    padding: 186px 0;
+    padding-top: 180px;
     &::-webkit-scrollbar{
         display: none;
     }
@@ -29,7 +28,7 @@ $text-color: #fff;
         &_title {
             width: 50%;
             text-align: center;
-            margin-top: 87px;
+            margin-top: 60px;
             color: $text-color;
             font-size: 3.5rem;
             font-weight: 300;
